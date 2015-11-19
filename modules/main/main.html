@@ -1,0 +1,9 @@
+<h1>This is the main template</h1>
+
+<h3>We have {{vm.numberOfUsers()}} users in our database and here is the list</h3>
+
+<ol>
+    <li data-ng-repeat="user in vm.users">
+        <p>{{user.name}} {{user.surname}}</p>
+    </li>
+</ol>
